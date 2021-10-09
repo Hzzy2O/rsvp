@@ -1,12 +1,13 @@
-@import "./normalize.less";
-@import "./transition.less";
-@import "../font/font.less";
+@import "normalize","transition";
+@import "../font/font";
 
+* {
+    font-family: 'Varela Round';
+    margin: 0;
+    padding: 0;
+  }
 html{
     font-size: 37.5px;  
-    font-family: 'Varela Round';
-}
-view{
     font-family: 'Varela Round';
 }
 .content {

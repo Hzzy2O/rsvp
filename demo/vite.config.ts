@@ -32,6 +32,7 @@ export default ({ mode }) =>
     base: mode === "development" ? "/" : "./",
     server: {
       port: 8888,
+      host:'0.0.0.0',
       // open: true,
       // proxy: {
       //   // 选项写法

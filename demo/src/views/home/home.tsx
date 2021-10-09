@@ -1,13 +1,14 @@
 import { defineComponent, ref } from 'vue'
 import { useRouter, Router } from 'vue-router'
-import {Button} from "@nutui/nutui"
-
+import "./index.scss"
 
 export default defineComponent({
   setup() {
+    
+
     return () =>
       <div>
-        <Button>hello树先生</Button>
+        <div  class="red">Alomst</div>
       </div>
   }
 })

@@ -17,7 +17,7 @@ const routes: RouteRecordRaw[] = [
     meta: {
       type: 'home'
     },
-    component: () => import('../views/home')
+    component: () => import('../views/home/home')
   },
   {
     path: '/:pathMatch(.*)*',
