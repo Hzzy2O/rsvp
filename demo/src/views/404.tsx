@@ -8,7 +8,7 @@ export default defineComponent({
     return () => (
       <div>
           返回首页
-        </div>
+      </div>
     )
   }
 })
