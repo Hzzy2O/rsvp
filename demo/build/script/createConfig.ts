@@ -3,7 +3,7 @@ import fs, { writeFileSync } from 'fs-extra'
 import chalk from 'chalk'
 
 import { getEnvConfig, getRootPath } from '../utils'
-import { getConfigFileName } from '../utils'
+import { getConfigFileName } from '../getConfigFileName'
 
 import pkg from '../../package.json'
 
