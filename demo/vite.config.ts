@@ -59,7 +59,7 @@ export default ({ mode }: ConfigEnv): UserConfig => {
           replacement: pathResolve('types') + '/'
         }
       ],
-      extensions: ['.js', '.json', '.vue','.ts']
+      extensions: ['.js', '.json', '.vue','.ts' , '.tsx']
     },
     build: {
       target: 'es2015',
