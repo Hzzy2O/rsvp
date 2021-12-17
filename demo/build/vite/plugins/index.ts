@@ -7,6 +7,7 @@ import { createHtmlPlugin } from './htmlPlugin'
 import { configCompressPlugin } from './compress';
 import vueJsx from '@vitejs/plugin-vue-jsx';
 
+
 export function createPlugins(viteEnv, isBuild) {
   const {
     VITE_BUILD_COMPRESS,

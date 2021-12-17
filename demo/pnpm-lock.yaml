@@ -12,7 +12,7 @@ specifiers:
   dotenv: ^10.0.0
   lodash-es: ^4.17.21
   pinia: 2.0.6
-  postcss-pxtorem: ^6.0.0
+  postcss-px2vp: ^1.1.2
   rollup-plugin-visualizer: ^5.5.2
   sass: ^1.45.0
   sass-loader: ^12.4.0
@@ -43,7 +43,7 @@ devDependencies:
   cross-env: 7.0.3
   crypto-js: 4.1.1
   dotenv: 10.0.0
-  postcss-pxtorem: 6.0.0
+  postcss-px2vp: 1.1.2
   rollup-plugin-visualizer: 5.5.2
   sass: 1.45.0
   sass-loader: 12.4.0_sass@1.45.0
@@ -2617,10 +2617,8 @@ packages:
       yaml: 1.10.2
     dev: true
 
-  /postcss-pxtorem/6.0.0:
-    resolution: {integrity: sha512-ZRXrD7MLLjLk2RNGV6UA4f5Y7gy+a/j1EqjAfp9NdcNYVjUMvg5HTYduTjSkKBkRkfqbg/iKrjMO70V4g1LZeg==}
-    peerDependencies:
-      postcss: ^8.0.0
+  /postcss-px2vp/1.1.2:
+    resolution: {integrity: sha512-CKrp32M5FIdSwZ1zo4dV+ygb6Pi31g+/oZZQ5GsAUZlHZ2KURnEDe0dGkrEA7HK+ZW47Mhs4JhuMOMDFEQju/w==}
     dev: true
 
   /postcss-value-parser/3.3.1:

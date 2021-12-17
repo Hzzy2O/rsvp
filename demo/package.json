@@ -22,7 +22,7 @@
     "cross-env": "^7.0.3",
     "crypto-js": "^4.1.1",
     "dotenv": "^10.0.0",
-    "postcss-pxtorem": "^6.0.0",
+    "postcss-px2vp": "^1.1.2",
     "rollup-plugin-visualizer": "^5.5.2",
     "sass": "^1.45.0",
     "sass-loader": "^12.4.0",

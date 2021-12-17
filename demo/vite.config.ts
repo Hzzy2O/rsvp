@@ -4,6 +4,7 @@ import { loadEnv } from 'vite'
 import { resolve } from 'path';
 import { createPlugins } from './build/vite/plugins'
 import { wrapperEnv } from './build/utils';
+import px2vp from 'postcss-px2vp'
 // import { createProxy } from './build/vite/proxy';
 
 function pathResolve(dir: string) {
@@ -90,6 +91,20 @@ export default ({ mode }: ConfigEnv): UserConfig => {
       //     })
       //   ]
       // }
+    },
+    css:{
+      postcss :{
+        plugins:[
+          px2vp({
+            viewportWidth(rule) {
+              const file = rule.source?.input.file;
+              // 根据文件名动态配置viewport width
+              if (file?.includes('vant')) return 375;
+              return 750;
+            }
+          })
+        ]
+      }
     }
   }
 }
