@@ -35,7 +35,7 @@ export default ({ mode }: ConfigEnv): UserConfig => {
       port: VITE_PORT,
       host: true,
       // // 是否开启 https
-      // https: false,
+      https: true,
       // // 服务端渲染
       // ssr: false,
       proxy: {

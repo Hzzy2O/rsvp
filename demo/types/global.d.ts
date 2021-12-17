@@ -42,6 +42,10 @@ declare global {
   interface ImportMetaEnv extends ViteEnv {
     __: unknown;
   }
+
+  declare interface DeviceMotionEvent{
+    requestPermission : () => Promise<PermissionState>
+  }
 }
 
 declare module 'vue' {
