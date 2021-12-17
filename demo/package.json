@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "addpage": "esno ./build/script/quickPage.ts page",
+    "addcomp": "esno ./build/script/quickPage.ts comp"
   },
   "dependencies": {
     "axios": "^0.24.0",
@@ -22,12 +24,16 @@
     "cross-env": "^7.0.3",
     "crypto-js": "^4.1.1",
     "dotenv": "^10.0.0",
+    "esno": "^0.13.0",
+    "naive-ui": "^2.23.0",
     "postcss-px2vp": "^1.1.2",
+    "prettier": "^2.5.1",
     "rollup-plugin-visualizer": "^5.5.2",
     "sass": "^1.45.0",
     "sass-loader": "^12.4.0",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4",
+    "vfonts": "^0.1.0",
     "vite": "2.7.2",
     "vite-babel-plugin": "^0.0.2",
     "vite-plugin-compression": "^0.3.6",

@@ -97,6 +97,7 @@
       "source.fixAll.eslint": false
     }
   },
+  "prettier.vueIndentScriptAndStyle": true,
   "i18n-ally.localesPaths": ["src/locales/lang"],
   "i18n-ally.keystyle": "nested",
   "i18n-ally.sortKeys": true,
@@ -107,7 +108,6 @@
   "i18n-ally.displayLanguage": "zh-CN",
   "i18n-ally.enabledFrameworks": ["vue", "react"],
   "cSpell.words": [
-    "vben",
     "windi",
     "browserslist",
     "tailwindcss",
