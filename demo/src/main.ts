@@ -1,3 +1,4 @@
+import "/@/assets/style/index.less"
 import { createApp } from 'vue'
 import App from './App.vue'
 import { setupStore } from '/@/store'

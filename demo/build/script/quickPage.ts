@@ -15,7 +15,7 @@ if (comm === 'page') {
     </div>
 </template>
 
-<style lang="scss">
+<style lang="less">
 </style>
 `
   let npath = getRootPath() + '\\src\\views' + '\\' + path
@@ -45,7 +45,7 @@ if (comm === 'page') {
   })
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 </style>`
   let npath = getRootPath() + '\\src\\components' + '\\' + path 
   try {

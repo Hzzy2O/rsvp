@@ -104,7 +104,15 @@ export default ({ mode }: ConfigEnv): UserConfig => {
             }
           })
         ]
-      }
+      },
+      preprocessorOptions: {
+        less: {
+          modifyVars: {
+            hack:`true;@import (reference) "${resolve('src/assets/style/index.less')}"`
+          },
+          javascriptEnabled: true,
+        },
+      },
     }
   }
 }

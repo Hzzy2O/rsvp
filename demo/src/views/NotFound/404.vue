@@ -8,5 +8,5 @@
     </div>
 </template>
 
-<style lang="scss">
+<style lang="less">
 </style>
